@@ -1,0 +1,12 @@
+{
+    "name": "coderanger/php-appstore-notifications",
+    "autoload": {
+        "psr-4": {
+            "AppStoreNotifications\\": "src"
+        }
+    },
+    "require": {
+        "phpseclib/phpseclib": "~3.0",
+        "firebase/php-jwt": "~6.3"
+    }
+}
