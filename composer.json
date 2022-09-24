@@ -5,8 +5,19 @@
             "AppStoreNotifications\\": "src"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "AppStoreNotifications\\Tests\\": "tests"
+        }
+    },
     "require": {
         "phpseclib/phpseclib": "~3.0",
         "firebase/php-jwt": "~6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit --configuration tests/phpunit.xml"
     }
 }
